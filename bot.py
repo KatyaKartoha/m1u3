@@ -23,7 +23,7 @@ def ban_user(message):
     else:
         bot.reply_to(message, "Эта команда должна быть использована в ответ на сообщение пользователя, которого вы хотите забанить.")
     if message.text == "https://":
-        chat_id = message.chat.id # сохранение id чата
+        chat_id = message.chat.id
          # сохранение id и статуса пользователя, отправившего сообщение
         user_id = message.reply_to_message.from_user.id
         user_status = bot.get_chat_member(chat_id, user_id).status
