@@ -22,5 +22,15 @@ def ban_user(message):
             bot.reply_to(message, f"Пользователь @{message.reply_to_message.from_user.username} был забанен.")
     else:
         bot.reply_to(message, "Эта команда должна быть использована в ответ на сообщение пользователя, которого вы хотите забанить.")
+    if message.text == "https://":
+        chat_id = message.chat.id # сохранение id чата
+         # сохранение id и статуса пользователя, отправившего сообщение
+        user_id = message.reply_to_message.from_user.id
+        user_status = bot.get_chat_member(chat_id, user_id).status
+        bot.ban_chat_member(chat_id, user_id)
 
+@bot.chat_join_request_handler()
+def make_some(message: telebot.types.ChatJoinRequest):
+    bot.send_message(message.chat.id, 'I accepted a new user!')
+    bot.approve_chat_join_request(message.chat.id, message.from_user.id)
 bot.infinity_polling(none_stop=True)

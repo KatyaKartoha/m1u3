@@ -1,0 +1,41 @@
+[33mcommit b19021588843bf5255bc8310f535866829c815eb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Katya <rybaleva_ea@mail.ru>
+Date:   Sat Jan 13 21:32:20 2024 +0900
+
+    token
+
+[33mcommit cdca01205bb7f81f8c2002a229216559f7d0ea4a[m
+Author: Katya <rybaleva_ea@mail.ru>
+Date:   Sat Jan 13 21:25:28 2024 +0900
+
+    token
+
+[33mcommit 9bcb5573ee4fc0a357e60afdce1ba58bd410d370[m
+Author: Katya <rybaleva_ea@mail.ru>
+Date:   Sat Jan 13 21:13:37 2024 +0900
+
+    Вот
+
+[33mcommit c2c3f0bc37804f835a41511222614a493716a0d2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: artserjulietta <110678368+artserjulietta@users.noreply.github.com>
+Date:   Thu Oct 5 11:24:30 2023 +0300
+
+    Update README.md
+
+[33mcommit 160901e827cf4f4de74990b874211c41139d1720[m
+Author: artserjulietta <110678368+artserjulietta@users.noreply.github.com>
+Date:   Thu Oct 5 11:24:15 2023 +0300
+
+    Create config.py
+
+[33mcommit 13739451c406d8d089c5fb809d207c22fa8452bf[m
+Author: artserjulietta <110678368+artserjulietta@users.noreply.github.com>
+Date:   Thu Oct 5 11:23:32 2023 +0300
+
+    Create bot.py
+
+[33mcommit cc47853ee5c221c8c4f1a73072ab378e20c58de0[m
+Author: artserjulietta <110678368+artserjulietta@users.noreply.github.com>
+Date:   Thu Oct 5 10:19:59 2023 +0300
+
+    Initial commit
